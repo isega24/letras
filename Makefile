@@ -42,7 +42,7 @@ $(OBJECTS): $(OBJ)/%.o: $(SRC)/%.cpp
 
 # ************ Limpieza ************
 clean :
-	-rm $(OBJ)/* $(SRC)/*~ $(INC)/*~ ./*~
+	-rm $(OBJ)/*.o $(SRC)/*~ $(INC)/*~ ./*~
 
 mrproper : clean
 	-rm $(BIN)/* doc/html/*
